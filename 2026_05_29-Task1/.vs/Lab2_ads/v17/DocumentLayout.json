@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP EliteBook 445 G8\\source\\repos\\Lab2_ads\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16C67F8E-5664-43D6-B127-A7D85DCE08E9}|Lab2_ads.vcxproj|C:\\Users\\HP EliteBook 445 G8\\source\\repos\\Lab2_ads\\Lab2_ads.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16C67F8E-5664-43D6-B127-A7D85DCE08E9}|Lab2_ads.vcxproj|solutionrelative:Lab2_ads.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab2_ads.cpp",
+              "DocumentMoniker": "C:\\Users\\HP EliteBook 445 G8\\source\\repos\\Lab2_ads\\Lab2_ads.cpp",
+              "RelativeDocumentMoniker": "Lab2_ads.cpp",
+              "ToolTip": "C:\\Users\\HP EliteBook 445 G8\\source\\repos\\Lab2_ads\\Lab2_ads.cpp",
+              "RelativeToolTip": "Lab2_ads.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-05T00:48:14.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
