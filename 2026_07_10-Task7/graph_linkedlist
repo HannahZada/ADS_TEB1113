@@ -1,1 +1,58 @@
+#include <iostream>
+#include <climits>
+using namespace std;
 
+// ============================================================
+// EdgeNode
+// Represents one edge in the adjacency list.
+//
+// vtx    : destination vertex
+// weight : edge weight
+// next   : pointer to the next edge
+// ============================================================
+
+struct EdgeNode {
+    int vtx;
+    int weight;
+    EdgeNode* next;
+
+    EdgeNode(int vtx, int weight)
+        : vtx(vtx), weight(weight), next(nullptr) {}
+};
+
+// ============================================================
+// Graph Class
+//
+// Uses an adjacency list representation.
+// Each vertex stores a linked list of connected vertices.
+//
+// Example:
+//
+// Vertex 0 -> [1,4] -> [2,8]
+// Vertex 1 -> [0,4] -> [4,6]
+// ============================================================
+
+class Graph {
+private:
+    int V;                  // Number of vertices
+    EdgeNode** head;        // Array of adjacency-list heads
+
+public:
+
+    // Constructor
+    Graph(int vertices) {
+        V = vertices;
+
+        head = new EdgeNode*[V];
+
+        for (int i = 0; i < V; i++) {
+            head[i] = nullptr;
+        }
+    }
+
+    // ========================================================
+    // Add an undirected weighted edge
+    //
+    // u ----weight---- v
+    //
+    /
